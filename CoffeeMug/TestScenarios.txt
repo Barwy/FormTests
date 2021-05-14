@@ -1,0 +1,31 @@
+1. test name field
+a. Check if no error message is displayed after providing a valid name;
+b. Check if correct error message is displayed after providing a one-character name;
+c. Check if correct error messageis displayed after providing a 70+ characters long name;
+d. Check if correct error message is displayed after leaving the name field empty and pressing the submit button;
+e. Check if correct error message is displayed after providing a name that consists solely from digits;
+
+2. test surname
+a. Check if no error message is displayed after providing a valid surname;
+b. Check if correct error message is displayed after providing a one-character surname;
+d. Check if correct error message is displayed after the name field is left empty and submit button is pressed;
+e. Check if correct error message is displayed after providing an invalid name (digits);
+f. Check if no error message is displayed after erasing surname after it was provided;
+
+3. test email
+a. Check if no error message is displayed after providing a valid email address;
+b. Check if correct error message is displayed after providing an email address without an @;
+c. Check if correct error message is displayed after providing an email address without a domain name;
+d. Check if correct error message is displayed if no email address is provided and submit button is pressed;
+
+4. test age
+a. Check if no error message is displayed after a valid age is provided;
+b. Check if correct error message is displayed after a letter is provided;
+c. Check if correct error message is displayed after a negative number is provided;
+
+5. test submit button
+a. Check if submitting only optional fields with correct data results in successful submit
+b. Check if submitting only optional fields with correct data results in successful submit
+c. Check if submitting all fields with correct data results in successful submit;
+d. Check if submitting all fields with incorrect data results in successful submit;
+e. Check if submitting an empty form results in successful submit;
